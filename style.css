@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.title{
+    font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 36px;
+}
+.booking{
+ margin-top: 100px;
+}
+.box{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+.influencer{
+   
+    font-size: 48px;
+}
+/* .link{
+    text-decoration: none;
+    background-color: rgb(240, 64, 64) ;
+    border-radius: 5px;
+    padding: 10px 30px;
+    color: seashell;
+    /* margin-top: 200px; */
+ 
+
+.book a{
+    position: absolute;
+    text-decoration: none;
+    padding: 10px 63px;
+    margin-top: 40px;
+    width: 250px;
+    background-color:  rgb(243, 134, 134);
+    border-radius: 10px;
+    color: beige;
+}
+.half img{
+    width: 70%;
+    /* height: 300px; */
+    margin-left: 120px;
+ 
+    
+}
+
+
+.collection{
+    margin-top: 50px;
+    text-align: center;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 70px;
+}
+
+
+.items{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+ 
+ 
+   
+
+   
+}
+.card {
+    margin-top: 30px;
+    width: 329px;
+    height: 476px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.items img{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.price{
+    margin-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.info{
+    margin-top: 10px;
+    position: relative;
+font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+align-items: center;
+letter-spacing: 0.018em;
+color: #787885;
+}
+
+.more a{
+font-size: 20px;
+text-align: end;
+text-decoration: none;
+float: right;
+color: rgb(243, 134, 134);
+}
+.arrow{
+    margin-left: 10px;
+}
+.star{
+    color: gold;
+    
+}
+.footer{
+    margin-top: 100px;
+    height: 200px;
+    background-color: black;
+    color: blanchedalmond;
+    text-align: center;
+    padding-top: 50px;
+}
